@@ -1,0 +1,65 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - JSONModel (1.8.0)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.4.3)
+  - x-engine-module-engine (1.0.10):
+    - JSONModel
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+  - x-engine-module-network (0.0.4):
+    - AFNetworking (~> 4.0.0)
+    - x-engine-module-engine
+    - x-engine-module-protocols
+  - x-engine-module-protocols (0.0.9)
+
+DEPENDENCIES:
+  - "x-engine-module-engine (from `../node_modules/@zkty-team/x-engine-module-engine`)"
+  - "x-engine-module-network (from `../node_modules/@zkty-team/x-engine-module-network`)"
+  - "x-engine-module-protocols (from `../node_modules/@zkty-team/x-engine-module-protocols`)"
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - JSONModel
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+
+EXTERNAL SOURCES:
+  x-engine-module-engine:
+    :path: "../node_modules/@zkty-team/x-engine-module-engine"
+  x-engine-module-network:
+    :path: "../node_modules/@zkty-team/x-engine-module-network"
+  x-engine-module-protocols:
+    :path: "../node_modules/@zkty-team/x-engine-module-protocols"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
+  x-engine-module-engine: bb6baa38f8f9fffa7ade9fa0735b552a0934e7d4
+  x-engine-module-network: 4e12adc9c0036c39245c6ddc1ec340f97961bd7b
+  x-engine-module-protocols: 28e48375efec3712397d82a6dfd671b80e95264a
+
+PODFILE CHECKSUM: f76e08a05bcf0515d612cdba1a4dfc8991bf0aa5
+
+COCOAPODS: 1.9.3
