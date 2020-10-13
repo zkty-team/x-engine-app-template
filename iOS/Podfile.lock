@@ -18,21 +18,39 @@ PODS:
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
   - MJRefresh (3.4.3)
-  - x-engine-module-engine (1.0.10):
+  - SSZipArchive (2.2.3)
+  - x-engine-module-device (0.0.1):
+    - x-engine-module-engine
+    - x-engine-module-tools
+  - x-engine-module-engine (0.0.12):
     - JSONModel
     - Masonry
     - MBProgressHUD
     - MJRefresh
+    - SSZipArchive
+  - x-engine-module-microapp (1.0.0):
+    - x-engine-module-engine
+    - x-engine-module-protocols
   - x-engine-module-network (0.0.4):
     - AFNetworking (~> 4.0.0)
     - x-engine-module-engine
     - x-engine-module-protocols
   - x-engine-module-protocols (0.0.9)
+  - x-engine-module-tools (1.0.0):
+    - SSZipArchive
+    - x-engine-module-engine
+    - x-engine-module-protocols
+  - x-engine-module-ui (1.1.1):
+    - x-engine-module-engine
 
 DEPENDENCIES:
+  - "x-engine-module-device (from `../node_modules/@zkty-team/x-engine-module-device`)"
   - "x-engine-module-engine (from `../node_modules/@zkty-team/x-engine-module-engine`)"
+  - "x-engine-module-microapp (from `../node_modules/@zkty-team/x-engine-module-microapp`)"
   - "x-engine-module-network (from `../node_modules/@zkty-team/x-engine-module-network`)"
   - "x-engine-module-protocols (from `../node_modules/@zkty-team/x-engine-module-protocols`)"
+  - "x-engine-module-tools (from `../node_modules/@zkty-team/x-engine-module-tools`)"
+  - "x-engine-module-ui (from `../node_modules/@zkty-team/x-engine-module-ui`)"
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -41,14 +59,23 @@ SPEC REPOS:
     - Masonry
     - MBProgressHUD
     - MJRefresh
+    - SSZipArchive
 
 EXTERNAL SOURCES:
+  x-engine-module-device:
+    :path: "../node_modules/@zkty-team/x-engine-module-device"
   x-engine-module-engine:
     :path: "../node_modules/@zkty-team/x-engine-module-engine"
+  x-engine-module-microapp:
+    :path: "../node_modules/@zkty-team/x-engine-module-microapp"
   x-engine-module-network:
     :path: "../node_modules/@zkty-team/x-engine-module-network"
   x-engine-module-protocols:
     :path: "../node_modules/@zkty-team/x-engine-module-protocols"
+  x-engine-module-tools:
+    :path: "../node_modules/@zkty-team/x-engine-module-tools"
+  x-engine-module-ui:
+    :path: "../node_modules/@zkty-team/x-engine-module-ui"
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
@@ -56,9 +83,14 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
-  x-engine-module-engine: bb6baa38f8f9fffa7ade9fa0735b552a0934e7d4
+  SSZipArchive: 62d4947b08730e4cda640473b0066d209ff033c9
+  x-engine-module-device: fa22e80597da692741f6a97d6d84c4566bf12deb
+  x-engine-module-engine: 37337517d1322f8048b51f8f1bb6c58358b5acb0
+  x-engine-module-microapp: 90d087a2dd4147b8b34c1db59939267ed421069b
   x-engine-module-network: 4e12adc9c0036c39245c6ddc1ec340f97961bd7b
   x-engine-module-protocols: 28e48375efec3712397d82a6dfd671b80e95264a
+  x-engine-module-tools: f63cbe059fd402655077d5abc7f6ade3e5228ef8
+  x-engine-module-ui: d84234c238e4dd961e6c34b68d9691b60748fc29
 
 PODFILE CHECKSUM: f76e08a05bcf0515d612cdba1a4dfc8991bf0aa5
 
