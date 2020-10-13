@@ -3,6 +3,7 @@
 
 
 import xengine from "@zkty-team/x-engine-module-engine";
+import ui from "@zkty-team/x-engine-module-ui";
 import mock from "./mock";
 function osCheck() {
   if (!xengine.hybrid) {

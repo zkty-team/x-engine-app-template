@@ -1,6 +1,6 @@
 {
   "name": "@zkty-team/x-engine-module-demo",
-  "version": "0.0.6",
+  "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -41,11 +41,12 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "@zkty-team/x-engine-module-device": "0.0.1",
+    "@zkty-team/x-engine-module-device": "~0.0.1",
     "@zkty-team/x-engine-module-engine": "~0.0.1",
     "@zkty-team/x-engine-module-network": "~0.0.4",
     "@zkty-team/x-engine-module-protocols": "~0.0.1",
     "@zkty-team/x-engine-module-tools": "~0.0.1",
+    "@zkty-team/x-engine-module-ui": "0.0.16",
     "npm": "^6.14.8"
   }
 }
