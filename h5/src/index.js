@@ -4,6 +4,9 @@
 
 import xengine from "@zkty-team/x-engine-module-engine";
 import ui from "@zkty-team/x-engine-module-ui";
+import device from "@zkty-team/x-engine-module-device";
+import network from "@zkty-team/x-engine-module-network";
+import tools from "@zkty-team/x-engine-module-tools";
 import mock from "./mock";
 function osCheck() {
   if (!xengine.hybrid) {
