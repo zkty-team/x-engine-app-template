@@ -1,6 +1,6 @@
 {
   "name": "@zkty-team/x-engine-module-offline",
-  "version": "0.0.31",
+  "version": "0.0.32",
   "main": "h5/src/index.js",
   "license": "MIT",
   "scripts": {
