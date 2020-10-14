@@ -33,7 +33,7 @@ module.exports = {
             }}],
       },
       {
-        test:    /\.css$/,
+        test: /\.css$/,
         include: [path.resolve(__dirname, "h5/src/")],
         use: ["style-loader", "css-loader"], // 注意排列顺序，执行顺序与排列顺序相反
       },

@@ -1,26 +1,10 @@
-.PHONY: h5 dev push push-to-pods mac x
-push-to-pods:
-	# https://github.com/azu/podspec-bump
-	podspec-bump -w  
-	git tag $$(podspec-bump --dump-version)
-	git commit -am "prod(*): push to pods"
-	git push --tags
-	pod repo push x-engine-pods x-engine-module-*.podspec --use-libraries --sources='https://github.com/CocoaPods/Specs.git,https://github.com/zkty-team/x-engine-pods.git'  --allow-warnings
-
-push:
-	pod repo push x-engine-pods x-engine-module-demo.podspec --use-libraries   --allow-warnings
-
+.PHONY: h5 dev push push-to-pods  x
 dev:
-	#  brew install watchexec
-	npm install zkty-team/x-cli
+	npm install @zkty-team/x-cli
 	watchexec --exts ts 'x-cli model model.ts' 
 
 h5:
 	cd h5 && npm run dev
-
-
-ts-dev:
-	watchexec --exts ts ts-node ../x-engine-api-generator/src/model_parser.ts model.ts
 
 server:
 	kitty @ launch --title model.ts --keep-focus
@@ -31,11 +15,9 @@ server:
 x: server
 	cd iOS && open *.xcworkspace || open *.xcodeproj
 
-r: x
-	./run.sh
-
-
 publish: 
-	npm version patch 
-	node scripts/preinstall.js 
-	npm publish
+	find . -name .DS_Store -print0 | xargs -0 rm 
+	git commit -am 'before publish' || echo ""
+	npm version patch
+	npm publish --access public
+	git push
