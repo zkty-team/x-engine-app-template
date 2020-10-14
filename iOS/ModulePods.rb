@@ -2,7 +2,6 @@
 require "json"
 def module_pods
   pod 'x-engine-module-camera', :path =>'../node_modules/@zkty-team/x-engine-module-camera'
-  pod 'x-engine-module-device', :path =>'../node_modules/@zkty-team/x-engine-module-device'
   pod 'x-engine-module-engine', :path =>'../node_modules/@zkty-team/x-engine-module-engine'
   pod 'x-engine-module-microapp', :path =>'../node_modules/@zkty-team/x-engine-module-microapp'
   pod 'x-engine-module-nav', :path =>'../node_modules/@zkty-team/x-engine-module-nav'
