@@ -1,6 +1,6 @@
 {
   "name": "@zkty-team/x-engine-module-template",
-  "version": "0.0.33",
+  "version": "0.0.34",
   "main": "h5/src/index.js",
   "license": "MIT",
   "scripts": {
