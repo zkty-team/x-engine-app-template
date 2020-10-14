@@ -33,17 +33,6 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "@zkty-team/x-engine-module-camera": "~0.0.4",
-    "@zkty-team/x-engine-module-device": "~0.0.3",
-    "@zkty-team/x-engine-module-engine": "~0.0.13",
-    "@zkty-team/x-engine-module-microapp": "~0.0.7",
-    "@zkty-team/x-engine-module-nav": "~0.0.2",
-    "@zkty-team/x-engine-module-network": "~0.0.9",
-    "@zkty-team/x-engine-module-offline": "~0.0.6",
-    "@zkty-team/x-engine-module-protocols": "~0.0.9",
-    "@zkty-team/x-engine-module-router": "~0.0.3",
-    "@zkty-team/x-engine-module-scan": "~0.0.2",
-    "@zkty-team/x-engine-module-tools": "~0.0.2",
-    "@zkty-team/x-engine-module-ui": "~0.0.16"
+    "@zkty-team/x-engine-module-engine": "~0.0.1"
   }
 }
