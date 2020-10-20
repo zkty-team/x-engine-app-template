@@ -59,8 +59,6 @@ PODS:
     - SSZipArchive
     - x-engine-module-engine
     - x-engine-module-protocols
-  - x-engine-module-ui (1.1.1):
-    - x-engine-module-engine
   - ZBarSDK (1.3.1)
 
 DEPENDENCIES:
@@ -74,7 +72,6 @@ DEPENDENCIES:
   - "x-engine-module-router (from `../node_modules/@zkty-team/x-engine-module-router`)"
   - "x-engine-module-scan (from `../node_modules/@zkty-team/x-engine-module-scan`)"
   - "x-engine-module-tools (from `../node_modules/@zkty-team/x-engine-module-tools`)"
-  - "x-engine-module-ui (from `../node_modules/@zkty-team/x-engine-module-ui`)"
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -108,8 +105,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@zkty-team/x-engine-module-scan"
   x-engine-module-tools:
     :path: "../node_modules/@zkty-team/x-engine-module-tools"
-  x-engine-module-ui:
-    :path: "../node_modules/@zkty-team/x-engine-module-ui"
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
@@ -129,7 +124,6 @@ SPEC CHECKSUMS:
   x-engine-module-router: 89f7b56b0edd926533975ba0bd0776b6b190b590
   x-engine-module-scan: eb5b52f07bfbc32e9ad3331d19e06546d4a4d70d
   x-engine-module-tools: f63cbe059fd402655077d5abc7f6ade3e5228ef8
-  x-engine-module-ui: d84234c238e4dd961e6c34b68d9691b60748fc29
   ZBarSDK: 4c1b5daeb7d6cc67dc9355e690af0230a661f6ec
 
 PODFILE CHECKSUM: f76e08a05bcf0515d612cdba1a4dfc8991bf0aa5

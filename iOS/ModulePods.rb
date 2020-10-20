@@ -11,7 +11,6 @@ def module_pods
   pod 'x-engine-module-router', :path =>'../node_modules/@zkty-team/x-engine-module-router'
   pod 'x-engine-module-scan', :path =>'../node_modules/@zkty-team/x-engine-module-scan'
   pod 'x-engine-module-tools', :path =>'../node_modules/@zkty-team/x-engine-module-tools'
-  pod 'x-engine-module-ui', :path =>'../node_modules/@zkty-team/x-engine-module-ui'
   
 end
   
